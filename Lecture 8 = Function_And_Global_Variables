@@ -1,0 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
+using UnityEngine;
+
+public class Functions : MonoBehaviour
+{
+    // a global variable 
+    int global = 6 ;
+    // Start is called before the first frame update
+    void Start()
+    {
+        //calling the function Add()
+
+        Debug.Log(Add(7, 9));
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public int Add(int num1, int num2)
+    {
+        int result = num1 + num2;
+        return result;
+        Debug.Log(global);
+
+    }
+}

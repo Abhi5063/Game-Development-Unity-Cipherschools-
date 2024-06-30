@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Data;
+using UnityEngine;
+
+public class Data_Types : MonoBehaviour
+
+{
+
+    // Start is called before the first frame update
+    // If age is greater than 18 person can vote
+
+    public int age;
+    void Start()
+    {
+        if (age >18)
+        {
+            Debug.Log("You can vote");
+        }
+        else
+        {
+            Debug.Log("You can not vote");
+        }
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
