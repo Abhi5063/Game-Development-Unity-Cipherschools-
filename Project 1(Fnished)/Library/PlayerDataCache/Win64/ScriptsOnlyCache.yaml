@@ -1085,4 +1085,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/INtro.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Project (1 GAME)/Project 1.exe
+  playerPath: D:/Unity/Project 1.exe
